@@ -9,10 +9,14 @@ The objective of this project is to develop a comprehensive waste classification
 https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification <br>
 https://www.kaggle.com/datasets/mostafaabla/garbage-classification
 
-## How to use:
+## To set up the project:
 
-* Select the mode of entering the image of object: Via camera or by uploading the image.
-* After the image is successfully scanned by the model, the object is classified on the basis of the type of their material and the type of trash bin that should be used for it.
+Any python editor can be used.
+* Install Python and required libraries (OpenCV, TensorFlow, matplotlib).
+* Organize the project structure with appropriate directories.
+* Prepare and organize your image dataset.
+* Update code paths for dataset and implement model training if desired.
+* Run the code and follow instructions for camera capture or image upload.
 
 Bin types:
 * Battery Bin

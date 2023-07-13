@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Waste Classification Model</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   
+</head>
+<body>
+    <nav class="nav-bar">
+        <h3>ENVIROSORT🌳: WASTE CLASSIFIER</h3>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <a href="https://www.freepik.com/free-photo/front-view-man-with-wooden-blocks_38687392.htm#query=sustainablr%20development&position=5&from_view=search&track=ais"><img src="static/Resources/closeup-hands-separating-plastic-bottles.jpg" class="d-block w-100 pic1" alt="pic1"></a>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="static/Resources/recycle-all-it-s-worth-poster.jpg" class="d-block w-100 pic2" alt="pic2">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="static/Resources/front-view-man-with-wooden-blocks.jpg" class="d-block w-100 pic3" alt="pic3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container-text">
+        <p>Waste segregation is the process of separating different types of waste at source to facilitate proper disposal and recycling. This involves separating waste into bins or containers based on its type, such as recyclables, organic wastes, and hazardous materials. While waste segregation may seem like a small act, it plays a crucial role in promoting environmental sustainability and creating a cleaner, healthier world.</p>
+        <ul>
+            <li>
+                Environmental Protection: Segregation helps reduce the amount of waste sent to landfills or incinerators. By separating recyclables such as paper, plastic, glass and metal, we can divert them from landfills and make them recyclable. Recycling eliminates the need to dispose of raw materials, saves energy, and reduces pollution associated with the production of new products. By recycling, we can help protect natural resources and reduce stress on the environment.
+            </li>
+            <li>
+                Reduced Landfill Burden: Landfills are rapidly reaching their capacity, and the disposal of waste in them poses significant environmental challenges. When biodegradable waste mixes with non-biodegradable materials, it contributes to the release of harmful gases like methane, a potent greenhouse gas that contributes to climate change. By segregating organic waste, such as food scraps and yard waste, we can divert them to composting facilities where they can be converted into nutrient-rich soil amendments instead of being buried in landfills.</li>
+            <li>
+                Hazardous Waste Management: Proper segregation of hazardous wastes is essential to ensure the safety of human health and the environment. Hazardous materials include items such as batteries, chemicals, pesticides and electronic waste. Improper separation of these materials can contaminate soil, water sources, and air, posing threats to ecosystems and populations Segregation of hazardous waste allows for the adoption of specialized processes processed and disposed of to reduce these risks.
+            </li>
+            <li>
+                Resource Recovery and Economic Benefits: Waste segregation promotes resource recovery and the circular economy. Separating recyclable materials allows for their efficient collection and processing, enabling them to be turned into new products. 
+            </li>
+            <li>
+                Education and Awareness: Implementing waste segregation initiatives raises awareness about the importance of responsible waste management. It encourages individuals, communities, and organizations to be more mindful of their consumption patterns and disposal practices. 
+            </li>
+        </ul>
+    </div>
+
+    <h4>To segregate your waste, click below:</h4>
+    <button class="btn btn-success"><a href="/home" style="text-decoration: none;color: aliceblue;">Classification Page</a></button>
+
+
+    <hr>
+    <footer id="footer">
+        <p>© Copyright 2023 EnviroSort | Made By:
+            <a href="https://www.linkedin.com/in/drishika-chauhan-647254206/">Drishika Chauhan</a>
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+</body>
+</html>

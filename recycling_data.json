@@ -1,0 +1,55 @@
+{
+    "Battery": {
+      "details": "Batteries can be recycled to recover valuable materials such as metals. It is recommended to check with local recycling centers or visit the <a href='https://www.epa.gov/recycle/battery-recycling' target='_blank'>Environmental Protection Agency</a> website for more information on how to recycle batteries.",
+      "website": "https://www.epa.gov/recycle/battery-recycling"
+    },
+    "Brown glass": {
+      "details": "Brown glass can be recycled and used to create new glass products. Visit the <a href='https://www.recycleglass.co.uk/' target='_blank'>Recycle Glass</a> website to learn more about the recycling process and find recycling centers near you.",
+      "website": "https://www.recycleglass.co.uk/"
+    },
+    "Cardboard": {
+      "details": "Cardboard can be recycled through local recycling programs. Visit the <a href='https://www.recyclecartons.com/' target='_blank'>Recycle Cartons</a> website to find recycling facilities near you and learn more about recycling cardboard.",
+      "website": "https://www.recyclecartons.com/"
+    },
+    "Clothes": {
+      "details": "Clothes can be donated to charitable organizations or recycled into new textiles. Visit the <a href='https://www.smartasn.org/' target='_blank'>Secondary Materials and Recycled Textiles Association (SMART)</a> website to find textile recycling locations and learn more about clothing recycling.",
+      "website": "https://www.smartasn.org/"
+    },
+    "Food items": {
+      "details": "Food waste can be composted to create nutrient-rich soil. Visit the <a href='https://www.epa.gov/recycle/composting-home' target='_blank'>Environmental Protection Agency</a> website to learn about composting food waste and its environmental benefits.",
+      "website": "https://www.epa.gov/recycle/composting-home"
+    },
+    "Green glass": {
+      "details": "Green glass can be recycled and used to create new glass products. Visit the <a href='https://www.recycleglass.co.uk/' target='_blank'>Recycle Glass</a> website to learn more about the recycling process and find recycling centers near you.",
+      "website": "https://www.recycleglass.co.uk/"
+    },
+    "Metal": {
+      "details": "Metals can be recycled repeatedly without losing their properties. Visit the <a href='https://www.recycle-steel.org/' target='_blank'>Steel Recycling Institute</a> website to learn more about metal recycling and find recycling locations near you.",
+      "website": "https://www.recycle-steel.org/"
+    },
+    "Nothing": {
+      "details": "No specific recycling information is available for this waste category.",
+      "website": ""
+    },
+    "Paper": {
+      "details": "Paper can be recycled into new paper products. Visit the <a href='https://www.paperrecycles.org/' target='_blank'>Paper Recycling Association</a> website to learn more about paper recycling and find recycling centers near you.",
+      "website": "https://www.paperrecycles.org/"
+    },
+    "Plastic": {
+      "details": "Plastics can be recycled to create new plastic products. Visit the <a href='https://www.plasticfilmrecycling.org/' target='_blank'>Plastic Film Recycling</a> website to learn more about plastic recycling and find drop-off locations near you.",
+      "website": "https://www.plasticfilmrecycling.org/"
+    },
+    "Shoes": {
+      "details": "Shoes in good condition can be donated to charitable organizations. Visit the <a href='https://www.givingsole.org/' target='_blank'>Giving Sole</a> website to learn more about shoe donation and find donation centers near you.",
+      "website": "https://www.givingsole.org/"
+    },
+    "Trash": {
+      "details": "This waste category cannot be recycled and should be disposed of properly in designated trash bins.",
+      "website": ""
+    },
+    "White glass": {
+      "details": "White glass can be recycled and used to create new glass products. Visit the <a href='https://www.recycleglass.co.uk/' target='_blank'>Recycle Glass</a> website to learn more about the recycling process and find recycling centers near you.",
+      "website": "https://www.recycleglass.co.uk/"
+    }
+  }
+  

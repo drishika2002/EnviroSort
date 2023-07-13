@@ -1,0 +1,131 @@
+/* styles.css */
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ecf0f1;
+  
+}
+  
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+  
+.nav-bar {
+  text-align: center;
+  background-color: #2980b9;
+  color: #f2f2f2;
+  padding: 1rem;
+  border-bottom: rgb(159, 159, 159) solid 1px;
+  border-radius:  0 0 1rem 1rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 2.5px 5px #bcbcbc;
+}
+
+  h1 {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  form {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .btn {
+    margin: 1rem;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .res {
+    background-color: #fff;
+    border: #d2dae2 0.35rem solid;
+    border-radius: 1.5rem 1.5rem 0 0;
+    padding: 2.5rem;
+    padding-top: 0;
+    margin-bottom: 2.75rem;
+    box-shadow: 5px 10px #bcbcbc;
+  }
+
+  .result {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .result p {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+
+.video-area {
+  /* border: rgb(99, 99, 99) 0.25rem solid; */
+  border-radius: 0 1rem;
+  margin: 1rem 0; 
+  padding: 0 1.5rem;
+  background: url("../Resources/BG.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.img-area {
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.container-text {
+  margin: 2rem;
+  text-align: justify;
+  padding: 2rem;
+}
+h4{
+  margin: 0 1rem;
+}
+
+.carousel-item {
+  height: 28rem;
+  width: 100%;
+}
+
+#footer
+{
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.pic1, .pic2, .pic3 {
+  height: 28rem;
+  width: 70%;
+}

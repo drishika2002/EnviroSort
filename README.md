@@ -37,6 +37,8 @@ Waste categories(Labels):
 * Battery
 * Shoes, Clothes
 
+* VIDEO DEMO LINK: https://drive.google.com/file/d/19N3tHrnjXfpZrXeMgNnHEzCU-tUg9n-6/view?usp=drive_link
+
 ## OUTPUT
 
 * CAPTURE FROM CAMERA(VIDEO):
@@ -45,6 +47,3 @@ Waste categories(Labels):
 * UPLOAD IMAGE:
 <img src="https://github.com/drishika2002/EnviroSort/blob/main/output_ss1.png">
 <img src="https://github.com/drishika2002/EnviroSort/blob/main/output_ss3.png">
-
-
-  

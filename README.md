@@ -37,8 +37,6 @@ Waste categories(Labels):
 * Battery
 * Shoes, Clothes
 
-* VIDEO DEMO LINK: https://drive.google.com/file/d/19N3tHrnjXfpZrXeMgNnHEzCU-tUg9n-6/view?usp=drive_link
-
 ## OUTPUT
 
 * CAPTURE FROM CAMERA(VIDEO):

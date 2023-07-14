@@ -13,14 +13,11 @@ batch_size = 16
 epochs = 1
 validation_split = 0.2
 
-# Get the list of folders (classes) in the dataset directory
 class_folders = os.listdir(data_dir)
 
-# Create empty lists to store image paths and corresponding labels
 image_paths = []
 labels = []
 
-# Iterate over each class folder and get image paths and labels
 for class_folder in class_folders:
     class_path = os.path.join(data_dir, class_folder)
     if os.path.isdir(class_path):
@@ -30,12 +27,10 @@ for class_folder in class_folders:
             image_paths.append(image_path)
             labels.append(class_folder)
 
-# Split the dataset into training and testing sets
 train_paths, test_paths, train_labels, test_labels = train_test_split(
     image_paths, labels, test_size=validation_split, random_state=42
 )
 
-# Create data generators
 train_datagen = ImageDataGenerator(
     rescale=1.0 / 255,
     shear_range=0.2,
@@ -85,5 +80,20 @@ model.fit(
     validation_data=validation_generator,
     validation_steps=validation_generator.samples // batch_size
 )
+
+test_generator = test_datagen.flow_from_directory(
+    data_dir,
+    target_size=input_shape[:2],
+    batch_size=batch_size,
+    class_mode='categorical',
+    shuffle=False
+)
+
+predictions = model.predict(test_generator)
+predicted_labels = np.argmax(predictions, axis=1)
+true_labels = test_generator.classes
+
+accuracy = np.mean(predicted_labels == true_labels)
+print("Overall Accuracy: {:.2%}".format(accuracy))
 
 model.save('waste_classification_model.h5')

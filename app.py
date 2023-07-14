@@ -12,11 +12,9 @@ from io import BytesIO
 
 app = Flask(__name__)
 
-# Load the waste classification model and labels
 model = load_model('static/Resources/Model/keras_model.h5')
 labels = ["White glass", "Green glass", "Brown glass", "Food items", "Plastic", "Trash", "Metal", "Paper", "Cardboard", "Battery", "Shoes", "Clothes"]
 
-# Define the paths and mappings for waste bins
 bins_folder = 'static/Resources/bins'
 bin_mapping = {
     0: 'glass_bin.png',
@@ -67,13 +65,13 @@ def homePage():
 def process():
     if request.method == 'POST':
         if 'image' in request.form:
-            # Process the captured frame from the camera
+           
             image_data = request.form['image']
-            image_data = image_data.split(',')[1]  # Remove the data URL prefix
+            image_data = image_data.split(',')[1] 
             image = Image.open(BytesIO(base64.b64decode(image_data))).convert('RGB')
             image = np.array(image)
         elif 'imagefile' in request.files:
-            # Process the uploaded image
+        
             imagefile = request.files['imagefile']
             image = np.asarray(Image.open(imagefile).convert('RGB'))
         else:
